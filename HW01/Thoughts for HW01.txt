@@ -1,0 +1,15 @@
+Q: What challenges did you encounter with this assignment? 
+A: Even though I've finished the code, I still can't be sure if I missed any situation.
+
+Q: What did you think about the requirements specification for this assignment?
+A: Good, they gave me a start point to start writing my code.
+
+Q: What challenges did you encounter with the tools?
+A: I mixed up JAVA and python. I used "||" instead of "or" in the beginning, so I didn't get the result I wanted.
+
+Q: Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+A: I started with the parameters, like what would happen if they were negative, positive or zeros. And then, I thought 
+   parameters that could not form a triangle should be considered. So I tried parameters like 3, 4, 100. And also, the
+   order of parameters shall not interfere the result, so I tried 3, 4, 5 and 5, 4, 3. At last, I tried parameters that 
+   can form scalene, isosceles, equilateral and right triangles to confirm that my code ran well. Also I called to my mind
+   the case that Prof. Bondi talked about,  in python 8 != math.sqrt(8)^2, so I added a test case sqrt(10), sqrt(5), sqrt(5).
